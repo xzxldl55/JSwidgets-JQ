@@ -179,5 +179,5 @@ const $toast = {
     }, 1500)
   },
 }
-
+window.$toast = $toast
 export default $toast

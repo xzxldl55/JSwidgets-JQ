@@ -11,3 +11,9 @@ $toast.success(text)
 $toast.info(text)
 $toast.error(text)
 ```
+
+- 无es6：
+```
+// 同样是使用window.$toast对象代替import的的对象
+// 可参考loading
+```
