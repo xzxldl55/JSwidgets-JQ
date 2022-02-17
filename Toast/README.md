@@ -1,5 +1,4 @@
 ## Toast顶部弹出式提示
-- es6:
 ```
 import $toast from 'toast.js'
 
@@ -10,10 +9,6 @@ $toast.toastInit()
 $toast.success(text)
 $toast.info(text)
 $toast.error(text)
-```
 
-- 无es6：
-```
-// 同样是使用window.$toast对象代替import的的对象
-// 可参考loading
+// 简单项目可以直接引入，用window.xxx调用
 ```
